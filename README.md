@@ -1,2 +1,4 @@
 # Glycine-Quantification-using-TE-Averaged-MRS
-This project explored the use of TE-averaging with the PRESS sequenc to improve detection and quantification of glycine in the thalamus
+This project explored the use of TE-averaging with the PRESS sequence to improve detection and quantification of glycine in the thalamus using a 3 T MRI system.
+
+MRS data was acquired from healthy participants in the thalamus. In order to improve the detection of glycine, the signal from overlapping metabolites must be minimized, thus a TE-averaging approach was applied to the PRESS acquisitions. Simulations of metabolite spectra were generated using a MATLAB script in order to fit the participant data in LCModel. The resulting metabolite estimates were then analyzed using statistical methods in Python to quantify glycine levels and various other metabolites. The analysis showed that further work is required to achieve reliable glycine quantification.
